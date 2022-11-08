@@ -26,6 +26,7 @@ public class UseBike {
 		for(Bike b:bikes) {
 			if(b.regno !=0) {
 				System.out.println("brand="+b.brand+" speed="+b.speed);
+				System.out.println();//extra for reference
 			}
 		}
 		
